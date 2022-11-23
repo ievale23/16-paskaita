@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --background-color-main: var(--background-color-main);
+}
+h1 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 1, 5em;
+}
+
+header {
+  height: 100px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  color: beige;
+  padding: 0 5%;
+  font-size: 60%;
+}
+
+header img {
+  max-height: 100%;
+}
+
+#menu-links {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+#section-about {
+  height: 600px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  row-gap: 10%;
+}
+
+#section-about p,
+#section-about h1 {
+  width: 80%;
+}
+
+#section-gallery {
+  height: 1000px;
+  background-color: rgb(150, 149, 149);
+}
+
+#section-contact {
+  height: 500px;
+  background-color: grey;
+}
